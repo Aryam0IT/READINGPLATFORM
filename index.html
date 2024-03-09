@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>أمة إقرا</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+    body {
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    .container {
+      display: flex;
+      height: 100vh;
+    }
+
+    .left {
+      width: 50%;
+      background-color: #white; /* Black background for left side */
+      position: relative; /* Enable relative positioning for image */
+    }
+
+    .right {
+      width: 50%;
+      background-color: #EAE1D7; /* Light gray background for right side */
+      display: flex;
+      flex-direction: column; /* Stack content vertically */
+      justify-content: center; /* Vertically center content within the right side */
+      align-items: center; /* Center text and button horizontally */
+    }
+
+    .right-text {
+      color: #fb4c0d; /* White text color */
+      font-size: 3em; /* Adjust font size as desired */
+      text-align: center ;
+      font-weight: bold;
+      margin: 130px;
+    }
+
+    .button {
+      margin: 10px; /* Add some margin around the button */
+      padding: 10px 20px; /* Adjust padding to fit your text */
+      background-color: #FB4C0D; /* Button background color */
+      color: #fff; /* Button text color */
+      font-size: 1em; /* Adjust font size as desired */
+      font-weight: bold; /* Make the text bold */
+      cursor: pointer; /* Change cursor to pointer on hover */
+      text-decoration: none; /* Remove text decoration */
+      border-radius: 100px;
+      width: 50%;
+      text-align: center;
+    }
+
+    .right img {
+      position: absolute; /* Make image absolute within the right section */
+      top: 10px; /* Adjust top position */
+      right: 5px; /* Adjust right position */
+      width: 250px; /* Adjust image width */
+      height: 250px; /* Adjust image height */
+    }
+
+    .left img {
+      position: absolute; /* Make image absolute within the left section */
+      top: 120px; /* Adjust top position */
+      left: 85px; /* Adjust left position */
+      width: 500px; /* Adjust image width */
+      height: 500px; /* Adjust image height */
+    }
+
+    .signup-text {
+      text-align: center;
+      margin-top: 20px; /* Add margin above the text */
+    }
+
+    .signup-link {
+      color: #fb4c0d; /* Match button text color */
+      font-weight: bold; /* Make the text bold */
+      text-decoration: none; /* Remove underline */
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="left">
+      <img src="المتنبي.jpg" alt="Al-Mutanabbi" class="left-img">
+    </div>
+    <div class="right">
+      <img src="Logo.jpg.png" alt="Logo" class="right-img">
+      <p class="right-text">أهلاً بك 
+
+        في أُمة إقرا</p>
+      <a href="THIREDP.HTML" class="button">تسجيل الدخول</a>
+      <div class="signup-text">
+        ليس لديك حساب؟
+        <a href="second-page.html" class="signup-link">افتح حساب</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
